@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700|Raleway:300,400,600&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background: url("../images/map_bg.png"), -webkit-gradient(linear, left top, left bottom, from(#0436b4), to(#0536b4));
+  background: url("../images/map_bg.png"), linear-gradient(#0436b4, #0536b4);
+  background-size: cover, cover;
+  background-position: bottom center, bottom right;
+  height: 100vh;
+}
+
+header nav {
+  color: #fff;
+}
+
+header nav li {
+  margin: 10px;
+  padding: 5px;
+}
+
+header nav li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1.4em;
+}
+
+header nav li a:hover {
+  color: #0436b4;
+}
+
+header nav li:hover {
+  background-color: #fff;
+}
+
+header nav li:hover a {
+  color: #0436b4;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+header .navbar-dark .navbar-nav .nav-link:hover {
+  color: #0436b4;
+}
+
+header .navbar-collapse.show, header .navbar-collapse.collapsing {
+  background-color: #fff;
+  text-align: center;
+}
+
+header .navbar-collapse.show .nav-link, header .navbar-collapse.collapsing .nav-link {
+  color: #0436b4;
+}
+
+header #headline {
+  color: #fff;
+  padding-top: 200px;
+}
+
+header #headline img {
+  max-width: 100%;
+}
+
+header #ctaBox {
+  padding: 2em;
+}
+
+header #ctaBox button {
+  width: 100%;
+  max-width: 800px;
+  margin: 3px auto 3px auto;
+  border: 0;
+  padding: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.8em;
+}
+
+header #ctaBox button.primaryBtn {
+  background-color: #cc0000;
+}
+
+header #ctaBox button.secondaryBtn {
+  opacity: 0.8;
+  color: rgba(4, 54, 180, 0.9);
+}
+
+header #heroImage {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700|Raleway:300,400,600&display=swap");
+
 body {
   padding: 0;
   margin: 0;
   border: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background: url("../images/map_bg.png"),
+    linear-gradient(rgba(4, 54, 180, 1), rgba(5, 54, 180, 1));
+  background-size: cover, cover;
+  background-position: bottom center, bottom right;
+  height: 100vh;
+
+  nav {
+    color: #fff;
+
+    li {
+      margin: 10px;
+      padding: 5px;
+      a {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 1.4em;
+        &:hover {
+          color: rgba(4, 54, 180, 1);
+        }
+      }
+      &:hover {
+        background-color: #fff;
+        a {
+          color: rgba(4, 54, 180, 1);
+        }
+      }
+    }
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    &:hover {
+      color: rgba(4, 54, 180, 1);
+    }
+  }
+  .navbar-collapse {
+    &.show,
+    &.collapsing {
+      background-color: #fff;
+      text-align: center;
+      .nav-link {
+        color: rgba(4, 54, 180, 1);
+      }
+    }
+  }
+
+  #headline {
+    color: #fff;
+    padding-top: 200px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  #ctaBox {
+    padding: 2em;
+    button {
+      width: 100%;
+      max-width: 800px;
+      margin: 3px auto 3px auto;
+      border: 0;
+      padding: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 1.8em;
+      &.primaryBtn {
+        background-color: #cc0000;
+      }
+      &.secondaryBtn {
+        opacity: 0.8;
+        color: rgba(4, 54, 180, 0.9);
+      }
+    }
+  }
+
+  #heroImage {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 }
