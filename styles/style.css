@@ -4,10 +4,12 @@ body {
   margin: 0;
   border: 0;
   font-family: "Raleway", sans-serif;
+  line-height: 1.8em;
 }
 
 header {
-  background: url("../images/map_bg.png"), -webkit-gradient(linear, left top, left bottom, from(#0436b4), to(#0536b4));
+  background: url("../images/map_bg.png"),
+    -webkit-gradient(linear, left top, left bottom, from(#0436b4), to(#0536b4));
   background: url("../images/map_bg.png"), linear-gradient(#0436b4, #0536b4);
   background-size: cover, cover;
   background-position: bottom center, bottom right;
@@ -28,7 +30,7 @@ header nav li a {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 2px;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 header nav li a:hover {
@@ -51,12 +53,14 @@ header .navbar-dark .navbar-nav .nav-link:hover {
   color: #0436b4;
 }
 
-header .navbar-collapse.show, header .navbar-collapse.collapsing {
+header .navbar-collapse.show,
+header .navbar-collapse.collapsing {
   background-color: #fff;
   text-align: center;
 }
 
-header .navbar-collapse.show .nav-link, header .navbar-collapse.collapsing .nav-link {
+header .navbar-collapse.show .nav-link,
+header .navbar-collapse.collapsing .nav-link {
   color: #0436b4;
 }
 
@@ -98,5 +102,17 @@ header #heroImage {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+#imageBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#imageBar img {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 /*# sourceMappingURL=style.css.map */

@@ -5,6 +5,7 @@ body {
   margin: 0;
   border: 0;
   font-family: "Raleway", sans-serif;
+  line-height: 1.8em;
 }
 
 header {
@@ -90,5 +91,12 @@ header {
     position: absolute;
     bottom: 0;
     right: 0;
+  }
+}
+
+#imageBar {
+  display: flex;
+  img {
+    flex-grow: 1;
   }
 }
