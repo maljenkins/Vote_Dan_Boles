@@ -8,9 +8,8 @@ body {
 }
 
 header {
-  background: url("../images/map_bg.png"),
-    -webkit-gradient(linear, left top, left bottom, from(#0436b4), to(#0536b4));
-  background: url("../images/map_bg.png"), linear-gradient(#0436b4, #0536b4);
+  background: url("../images/map_bg.png"), -webkit-gradient(linear, left top, left bottom, from(#0536b4), to(#0536b4));
+  background: url("../images/map_bg.png"), linear-gradient(#0536b4, #0536b4);
   background-size: cover, cover;
   background-position: bottom center, bottom right;
   height: 100vh;
@@ -30,7 +29,7 @@ header nav li a {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 2px;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 header nav li a:hover {
@@ -53,14 +52,12 @@ header .navbar-dark .navbar-nav .nav-link:hover {
   color: #0436b4;
 }
 
-header .navbar-collapse.show,
-header .navbar-collapse.collapsing {
+header .navbar-collapse.show, header .navbar-collapse.collapsing {
   background-color: #fff;
   text-align: center;
 }
 
-header .navbar-collapse.show .nav-link,
-header .navbar-collapse.collapsing .nav-link {
+header .navbar-collapse.show .nav-link, header .navbar-collapse.collapsing .nav-link {
   color: #0436b4;
 }
 
@@ -112,7 +109,35 @@ header #heroImage {
 
 #imageBar img {
   -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#improvements ul {
+  list-style-image: url("../images/mustache.png");
+}
+
+#improvements ul li {
+  font-size: 28px;
+  padding: 20px 0;
+}
+
+.highlight {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+h2::after {
+  display: block;
+  content: "";
+  width: 55px;
+  height: 2px;
+  background-color: rgba(4, 54, 180, 0.9);
+  margin-top: 5px;
 }
 /*# sourceMappingURL=style.css.map */
