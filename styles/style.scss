@@ -101,15 +101,15 @@ header {
   }
 }
 
-#improvements {
-  ul {
-    list-style-image: url("../images/mustache.png");
-    li {
-      font-size: 28px;
-      padding: 20px 0;
-    }
-  }
-}
+// #improvements {
+//   ul {
+//     list-style-image: url("../images/mustache.png");
+//     li {
+//       font-size: 28px;
+//       padding: 20px 0;
+//     }
+//   }
+// }
 
 .highlight {
   color: #cc0000;
@@ -118,13 +118,9 @@ header {
 
 h2 {
   font-size: 36px;
-  font-weight: normal;
-  &::after {
-    display: block;
-    content: "";
-    width: 55px;
-    height: 2px;
-    background-color: rgba(4, 54, 180, 0.9);
-    margin-top: 5px;
-  }
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
 }

@@ -113,15 +113,6 @@ header #heroImage {
           flex-grow: 1;
 }
 
-#improvements ul {
-  list-style-image: url("../images/mustache.png");
-}
-
-#improvements ul li {
-  font-size: 28px;
-  padding: 20px 0;
-}
-
 .highlight {
   color: #cc0000;
   font-weight: bold;
@@ -129,15 +120,10 @@ header #heroImage {
 
 h2 {
   font-size: 36px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
-h2::after {
-  display: block;
-  content: "";
-  width: 55px;
-  height: 2px;
-  background-color: rgba(4, 54, 180, 0.9);
-  margin-top: 5px;
+img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
