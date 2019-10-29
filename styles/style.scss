@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700|Raleway:300,400,600&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap");
 body {
   padding: 0;
   margin: 0;
@@ -60,6 +60,12 @@ header {
   #headline {
     color: #fff;
     padding-top: 200px;
+    @media screen and (max-width: 480px) {
+      padding-top: 70px;
+      img {
+        width: 80%;
+      }
+    }
     img {
       max-width: 100%;
     }
@@ -116,6 +122,12 @@ header {
   font-weight: bold;
 }
 
+.highlightBlue {
+  color: rgba(5, 54, 180, 1);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 h2 {
   font-size: 36px;
   font-weight: bold;
@@ -123,4 +135,25 @@ h2 {
 
 img {
   max-width: 100%;
+}
+
+#introNote {
+  font-family: "Architects Daughter", cursive;
+  font-size: 32px;
+  line-height: 40px;
+  p {
+    padding: 0px;
+    margin: 12px 0px;
+  }
+}
+
+#introNoteContainer {
+  margin-top: -400px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  @media screen and (max-width: 480px) {
+    margin-top: -180px;
+    width: 80%;
+  }
 }
