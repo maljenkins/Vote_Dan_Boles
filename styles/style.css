@@ -9,22 +9,19 @@ body {
 }
 
 header {
-  background: url("../images/map_bg.png"), -webkit-gradient(linear, left top, left bottom, from(#0536b4), to(#0536b4));
-  background: url("../images/map_bg.png"), linear-gradient(#0536b4, #0536b4);
+  background: url("../images/map_bg.png"), linear-gradient(rgb(5, 54, 180), rgb(5, 54, 180));
   background-size: cover, cover;
   background-position: bottom center, bottom right;
-  height: 100vh;
+  min-height: 400px;
+  padding-bottom: 400px;
 }
-
 header nav {
   color: #fff;
 }
-
 header nav li {
   margin: 10px;
   padding: 5px;
 }
-
 header nav li a {
   color: #fff;
   text-transform: uppercase;
@@ -32,41 +29,32 @@ header nav li a {
   letter-spacing: 2px;
   font-size: 1.1em;
 }
-
 header nav li a:hover {
-  color: #0436b4;
+  color: rgb(4, 54, 180);
 }
-
 header nav li:hover {
   background-color: #fff;
 }
-
 header nav li:hover a {
-  color: #0436b4;
+  color: rgb(4, 54, 180);
 }
-
 header .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
-
 header .navbar-dark .navbar-nav .nav-link:hover {
-  color: #0436b4;
+  color: rgb(4, 54, 180);
 }
-
 header .navbar-collapse.show, header .navbar-collapse.collapsing {
   background-color: #fff;
   text-align: center;
 }
-
 header .navbar-collapse.show .nav-link, header .navbar-collapse.collapsing .nav-link {
-  color: #0436b4;
+  color: rgb(4, 54, 180);
 }
-
 header #headline {
   color: #fff;
-  padding-top: 200px;
+  padding-top: 0px;
 }
-
 @media screen and (max-width: 480px) {
   header #headline {
     padding-top: 70px;
@@ -75,15 +63,12 @@ header #headline {
     width: 80%;
   }
 }
-
 header #headline img {
   max-width: 100%;
 }
-
 header #ctaBox {
   padding: 2em;
 }
-
 header #ctaBox button {
   width: 100%;
   max-width: 800px;
@@ -95,16 +80,13 @@ header #ctaBox button {
   color: #fff;
   font-size: 1.8em;
 }
-
 header #ctaBox button.primaryBtn {
   background-color: #cc0000;
 }
-
 header #ctaBox button.secondaryBtn {
   opacity: 0.8;
   color: rgba(4, 54, 180, 0.9);
 }
-
 header #heroImage {
   position: absolute;
   bottom: 0;
@@ -112,15 +94,10 @@ header #heroImage {
 }
 
 #imageBar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 #imageBar img {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
 .highlight {
@@ -129,7 +106,7 @@ header #heroImage {
 }
 
 .highlightBlue {
-  color: #0536b4;
+  color: rgb(5, 54, 180);
   font-weight: bold;
   text-decoration: underline;
 }
@@ -145,26 +122,23 @@ img {
 
 #introNote {
   font-family: "Architects Daughter", cursive;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 32px;
 }
-
 #introNote p {
   padding: 0px;
   margin: 12px 0px;
 }
 
 #introNoteContainer {
-  margin-top: -400px;
+  margin-top: -300px;
   background-color: #fff;
   padding: 50px;
   border-radius: 10px;
 }
-
 @media screen and (max-width: 480px) {
   #introNoteContainer {
     margin-top: -180px;
     width: 80%;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

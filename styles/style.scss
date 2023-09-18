@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700|Raleway:300,400,600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap");
+
 body {
   padding: 0;
   margin: 0;
@@ -13,7 +14,8 @@ header {
     linear-gradient(rgba(5, 54, 180, 1), rgba(5, 54, 180, 1));
   background-size: cover, cover;
   background-position: bottom center, bottom right;
-  height: 100vh;
+  min-height: 400px;
+  padding-bottom: 400px;
 
   nav {
     color: #fff;
@@ -21,18 +23,22 @@ header {
     li {
       margin: 10px;
       padding: 5px;
+
       a {
         color: #fff;
         text-transform: uppercase;
         font-weight: 600;
         letter-spacing: 2px;
         font-size: 1.1em;
+
         &:hover {
           color: rgba(4, 54, 180, 1);
         }
       }
+
       &:hover {
         background-color: #fff;
+
         a {
           color: rgba(4, 54, 180, 1);
         }
@@ -42,15 +48,19 @@ header {
 
   .navbar-dark .navbar-nav .nav-link {
     color: #fff;
+
     &:hover {
       color: rgba(4, 54, 180, 1);
     }
   }
+
   .navbar-collapse {
+
     &.show,
     &.collapsing {
       background-color: #fff;
       text-align: center;
+
       .nav-link {
         color: rgba(4, 54, 180, 1);
       }
@@ -59,13 +69,16 @@ header {
 
   #headline {
     color: #fff;
-    padding-top: 200px;
+    padding-top: 0px;
+
     @media screen and (max-width: 480px) {
       padding-top: 70px;
+
       img {
         width: 80%;
       }
     }
+
     img {
       max-width: 100%;
     }
@@ -73,6 +86,7 @@ header {
 
   #ctaBox {
     padding: 2em;
+
     button {
       width: 100%;
       max-width: 800px;
@@ -83,9 +97,11 @@ header {
       text-transform: uppercase;
       color: #fff;
       font-size: 1.8em;
+
       &.primaryBtn {
         background-color: #cc0000;
       }
+
       &.secondaryBtn {
         opacity: 0.8;
         color: rgba(4, 54, 180, 0.9);
@@ -102,6 +118,8 @@ header {
 
 #imageBar {
   display: flex;
+
+
   img {
     flex-grow: 1;
   }
@@ -139,8 +157,9 @@ img {
 
 #introNote {
   font-family: "Architects Daughter", cursive;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 32px;
+
   p {
     padding: 0px;
     margin: 12px 0px;
@@ -148,10 +167,11 @@ img {
 }
 
 #introNoteContainer {
-  margin-top: -400px;
+  margin-top: -300px;
   background-color: #fff;
   padding: 50px;
   border-radius: 10px;
+
   @media screen and (max-width: 480px) {
     margin-top: -180px;
     width: 80%;
